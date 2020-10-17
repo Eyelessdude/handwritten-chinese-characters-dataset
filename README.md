@@ -1,1 +1,1 @@
-# chinese-MNIST
+# Handwritten Chinese Characters (Hanzi) Dataset
