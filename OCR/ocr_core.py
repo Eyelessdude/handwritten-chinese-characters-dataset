@@ -20,6 +20,6 @@ cv2.imwrite("{}.png".format(os.getpid()), threshold)
 
 text = pytesseract.image_to_string(threshold, lang=args["lang"], config="--psm {}".format(args["psm"]))
 
-print(text)
+print("Recognized symbol: ", text)
 img = Image.open(filename)
 img.show()
